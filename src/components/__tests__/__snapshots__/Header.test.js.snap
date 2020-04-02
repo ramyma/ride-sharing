@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+.emotion-1 {
+  background-color: var(--xstyled-colors-background,#fff);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 48px;
+  margin: 0 auto;
+  padding: 0 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width:1199.98px) {
+  .emotion-1 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-1 {
+    max-width: 1200px;
+  }
+}
+
+.emotion-0 {
+  background-color: var(--xstyled-colors-inverseBackground,#1c1c1c);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+}
+
+<header
+  className="emotion-1"
+  height={48}
+>
+  <img
+    alt="logo"
+    height="60%"
+    src="logo.png"
+  />
+  <div
+    className="emotion-0"
+    height={40}
+    onClick={[Function]}
+    width={40}
+  />
+</header>
+`;
