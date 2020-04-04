@@ -16,6 +16,8 @@ export default function Map() {
 
   const { pathStep } = useSelector(tripSelector);
 
+  const pathStepRef = useRef(pathStep);
+
   useLayoutEffect(() => {
     function handleLoadMap() {
       map.current.addSource('route', {
@@ -152,7 +154,7 @@ export default function Map() {
       });
 
       marker.current = new mapboxgl.Marker({ color: '#f80045' });
-      marker.current.setLngLat(path[pathStep]);
+      marker.current.setLngLat(path[pathStepRef.current]);
       marker.current.addTo(map.current);
     }
 
@@ -178,7 +180,7 @@ export default function Map() {
     map.current.on('load', handleLoadMap);
 
     return () => map.current.off('load', handleLoadMap);
-  }, [colorMode, pathStep]);
+  }, [colorMode]);
 
   useEffect(() => {
     if (marker.current) {
