@@ -4,25 +4,42 @@ A single page dashboard that simulates a shared trip experience and displays som
 
 ## Table of Contents
 
-- [Deployment](#deployment)
-- [Libraries & Tools Used](#libraries--tools-used)
-  - [Core](#core)
-  - [State Management](#state-management)
-  - [Immutability](#immutability)
-  - [Styling](#styling)
-  - [Charts](#charts)
-  - [Maps](#maps)
-  - [Testing](#testing)
-  - [Tooling](#tooling)
-- [Features](#features)
-  - [User Can](#user-can)
-  - [Other Features](#other-features)
-- [Future Improvements](#future-improvements)
-- [Running locally](#running-locally)
+- [📍Trip Tracker 🚐](#%f0%9f%93%8dtrip-tracker-%f0%9f%9a%90)
+  - [Table of Contents](#table-of-contents)
+  - [Deployment](#deployment)
+  - [Preview](#preview)
+  - [Libraries & Tools Used](#libraries--tools-used)
+    - [Core](#core)
+    - [State Management](#state-management)
+    - [Immutability](#immutability)
+    - [Styling](#styling)
+    - [Charts](#charts)
+    - [Maps](#maps)
+    - [Testing](#testing)
+    - [Tooling](#tooling)
+  - [Features](#features)
+    - [User Can](#user-can)
+    - [Other Features](#other-features)
+  - [Future Improvements](#future-improvements)
+  - [Running locally](#running-locally)
 
 ## Deployment
 
 https://swvltaskrm.netlify.com/
+
+## Preview
+
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/mobile-dark.jpg" width="200" height="400" style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/mobile-light.jpg" width="200" height="400"style="margin:16px;" />
+
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-dark.jpg" width="100%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-light.jpg" width="100%"  style="margin:16px;"/>
+
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/reset.jpg" width="100%" style="margin:16px;" />
+
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/trip-progress.jpg" width="100%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats2.jpg" width="100%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats.jpg" width="100%"  style="margin:16px;"/>
 
 ## Libraries & Tools Used
 
