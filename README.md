@@ -29,17 +29,17 @@ https://swvltaskrm.netlify.com/
 
 ## Preview
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/mobile-dark.jpg" width="200" height="400" style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/mobile-light.jpg" width="200" height="400"style="margin:16px;" />
+![mobile dark](/readme/mobile-dark.jpg)
+![mobile light](/readme/mobile-light.jpg)
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-dark.jpg" width="50%"  style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-light.jpg" width="50%"  style="margin:16px;"/>
+![desktop dark](/readme/desktop-dark.jpg)
+![desktop light](/readme/desktop-light.jpg)
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/reset.jpg" width="50%" style="margin:16px;" />
+![reset](/readme/reset.jpg)
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/trip-progress.jpg" width="50%"  style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats2.jpg" width="50%"  style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats.jpg" width="50%"  style="margin:16px;"/>
+![trip progress](/readme/trip-progress.jpg)
+![stats2](/readme/stats2.jpg)
+![stats](/readme/stats.jpg)
 
 ## Libraries & Tools Used
 
