@@ -32,14 +32,14 @@ https://swvltaskrm.netlify.com/
 <img src="https://gitlab.com/rmah/task/-/raw/master/readme/mobile-dark.jpg" width="200" height="400" style="margin:16px;"/>
 <img src="https://gitlab.com/rmah/task/-/raw/master/readme/mobile-light.jpg" width="200" height="400"style="margin:16px;" />
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-dark.jpg" width="100%"  style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-light.jpg" width="100%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-dark.jpg" width="50%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/desktop-light.jpg" width="50%"  style="margin:16px;"/>
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/reset.jpg" width="100%" style="margin:16px;" />
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/reset.jpg" width="50%" style="margin:16px;" />
 
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/trip-progress.jpg" width="100%"  style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats2.jpg" width="100%"  style="margin:16px;"/>
-<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats.jpg" width="100%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/trip-progress.jpg" width="50%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats2.jpg" width="50%"  style="margin:16px;"/>
+<img src="https://gitlab.com/rmah/task/-/raw/master/readme/stats.jpg" width="50%"  style="margin:16px;"/>
 
 ## Libraries & Tools Used
 
