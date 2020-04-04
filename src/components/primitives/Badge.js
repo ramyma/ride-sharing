@@ -1,4 +1,4 @@
-import styled, { css } from '@xstyled/emotion';
+import styled from '@xstyled/emotion';
 import Typography from './Typograpgy';
 
 const Badge = styled(Typography)``;

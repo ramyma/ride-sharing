@@ -1,5 +1,5 @@
 import bookings from '../bookings';
-import { boardBooking, addBooking, dropoffBooking } from '../../actions';
+import { boardBooking, addBooking } from '../../actions';
 import { paymentMethods } from '../../../constants';
 
 let state;

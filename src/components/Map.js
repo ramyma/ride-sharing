@@ -178,7 +178,7 @@ export default function Map() {
     map.current.on('load', handleLoadMap);
 
     return () => map.current.off('load', handleLoadMap);
-  }, [colorMode]);
+  }, [colorMode, pathStep]);
 
   useEffect(() => {
     if (marker.current) {
