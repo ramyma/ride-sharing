@@ -16,7 +16,7 @@ function App() {
   const tripStatus = useSelector(tripStatusSelector);
 
   const {
-    colors: { background, inverseBackground }
+    colors: { background, inverseBackground },
   } = useTheme();
 
   return (

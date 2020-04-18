@@ -1,5 +1,5 @@
 import produce from 'immer';
-import getRandomUser from '../../data/usres';
+import getRandomUser from '../../data/users';
 import { tripStatuses } from '../../constants';
 
 const { name: driverName, img: driverImg } = getRandomUser();
@@ -10,7 +10,7 @@ const INITIAL_STATE = {
   nextStation: 1,
   driver: { name: driverName, img: driverImg },
   status: tripStatuses.notStarted,
-  startDate: undefined
+  startDate: undefined,
 };
 const trip = produce((draft = INITIAL_STATE, action) => {
   switch (action.type) {

@@ -7,7 +7,7 @@
     "@emotion/styled": "^10.0.27",
     "@nivo/bar": "^0.61.1",
     "@nivo/pie": "^0.61.1",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/react": "^10.0.2",
     "@testing-library/user-event": "^7.1.2",
     "@xstyled/emotion": "^1.17.0",
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "jest-axe": "^3.4.0",
     "jest-emotion": "^10.0.32",
     "react-test-renderer": "^16.13.1"
   }

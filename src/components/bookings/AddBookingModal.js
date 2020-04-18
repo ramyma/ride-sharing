@@ -9,7 +9,7 @@ import Modal from '../primitives/Modal';
 import Box from '../primitives/Box';
 import { stations } from '../../data';
 import { useRef } from 'react';
-import getRandomUser from '../../data/usres';
+import getRandomUser from '../../data/users';
 import { bookingStatuses, paymentMethods } from '../../constants';
 
 export default function AddBookingModal({ onClose }) {
@@ -20,6 +20,7 @@ export default function AddBookingModal({ onClose }) {
   const [dropoffStation, setDropoffStation] = useState(
     stations[stations.length - 1].id
   );
+
   const [payment, setPayment] = useState(paymentMethods.cash);
 
   useEffect(() => {
@@ -65,7 +66,7 @@ export default function AddBookingModal({ onClose }) {
         pickupStation,
         dropoffStation,
         payment,
-        status: bookingStatuses.pending
+        status: bookingStatuses.pending,
       })
     );
     onClose();
@@ -74,7 +75,14 @@ export default function AddBookingModal({ onClose }) {
     <Modal onClose={onClose}>
       <Flex dir="col" flex={1}>
         <Typography variant="heading1">Add Booking</Typography>
-        <Flex as="form" dir="col" py={2} flex={1} onSubmit={handleFormSubmit}>
+        <Flex
+          as="form"
+          role="form"
+          dir="col"
+          py={2}
+          flex={1}
+          onSubmit={handleFormSubmit}
+        >
           <Flex dir="col" py={2}>
             <Box as="label" htmlFor="pickupStation" pb={2}>
               Pickup Station:
@@ -159,5 +167,5 @@ export default function AddBookingModal({ onClose }) {
 }
 
 AddBookingModal.propTypes = {
-  onClose: PropTypes.func.isRequired
+  onClose: PropTypes.func.isRequired,
 };

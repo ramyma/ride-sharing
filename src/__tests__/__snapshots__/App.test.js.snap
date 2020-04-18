@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+Array [
+  .emotion-1 {
+  background-color: var(--xstyled-colors-background,#fff);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 48px;
+  margin: 0 auto;
+  padding: 0 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width:1199.98px) {
+  .emotion-1 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-1 {
+    max-width: 1200px;
+  }
+}
+
+.emotion-0 {
+  background-color: var(--xstyled-colors-inverseBackground,#1c1c1c);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+}
+
+<header
+    className="emotion-1"
+    height={48}
+  >
+    <img
+      alt="logo"
+      height="60%"
+      src="logo.png"
+    />
+    <div
+      className="emotion-0"
+      height={40}
+      onClick={[Function]}
+      width={40}
+    />
+  </header>,
+  < />,
+  .emotion-33 {
+  background-color: var(--xstyled-colors-background,#fff);
+  margin: 0 auto;
+  padding: 0 24px;
+  padding-bottom: 96px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (max-width:1199.98px) {
+  .emotion-33 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-33 {
+    max-width: 1200px;
+  }
+}
+
+.emotion-26 {
+  background-color: var(--xstyled-colors-background,#fff);
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-4 {
+  background-color: var(--xstyled-colors-background,#fff);
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-bottom: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-2 {
+  background-color: var(--xstyled-colors-background,#fff);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0 {
+  color: var(--xstyled-colors-text,#353535);
+  font-size: 24px;
+}
+
+.emotion-1 {
+  margin-top: 4px;
+  color: var(--xstyled-colors-grey,#585858);
+  font-size: 16px;
+}
+
+.emotion-3 {
+  background-color: var(--xstyled-colors-primary,#ee424a);
+  border-color: white;
+  border: 1px solid;
+  border-radius: 4px;
+  color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-width: 100px;
+  padding: 8px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  -webkit-transition: 280ms all ease;
+  transition: 280ms all ease;
+}
+
+.emotion-3:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.emotion-25 {
+  background-color: var(--xstyled-colors-background,#fff);
+  grid-column-gap: 48px;
+  grid-row-gap: 24px;
+  grid-template-columns: minMax(280px,1fr);
+  margin-top: 24px;
+  display: grid;
+}
+
+@media (min-width:768px) {
+  .emotion-25 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.emotion-9 {
+  background-color: var(--xstyled-colors-background,#fff);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-5 {
+  background-color: var(--xstyled-colors-background,#fff);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+
+.emotion-6 {
+  color: var(--xstyled-colors-text,#353535);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.emotion-7 {
+  color: var(--xstyled-colors-text,#353535);
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.emotion-10 {
+  background: linear-gradient( 45deg,#691b9c,#e60e64);
+  background-color: var(--xstyled-colors-background,#fff);
+  border-radius: 5px;
+  width: 4px;
+  height: 37px;
+  margin-right: 8px;
+}
+
+.emotion-13 {
+  background-color: var(--xstyled-colors-background,#fff);
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 98%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-21 {
+  background-color: var(--xstyled-colors-background,#fff);
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-15 {
+  background-color: var(--xstyled-colors-grey,#585858);
+  border-radius: 4px;
+  height: 12px;
+  width: 10px;
+  margin-right: 8px;
+}
+
+@media (min-width:768px) {
+  .emotion-15 {
+    height: 18px;
+  }
+}
+
+.emotion-16 {
+  color: var(--xstyled-colors-text,#353535);
+  font-size: 14px;
+}
+
+.emotion-22 {
+  color: var(--xstyled-colors-text,#353535);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.emotion-32 {
+  background-color: var(--xstyled-colors-background,#fff);
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-29 {
+  background-color: var(--xstyled-colors-background,#fff);
+  border: 1px solid;
+  border-radius: 4px;
+  border-color: var(--xstyled-colors-inverseBackground,#1c1c1c);
+  color: var(--xstyled-colors-inverseBackground,#1c1c1c);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-width: 100px;
+  padding: 8px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  -webkit-transition: 280ms all ease;
+  transition: 280ms all ease;
+}
+
+.emotion-29:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.emotion-29:hover {
+  background-color: var(--xstyled-colors-inverseBackground,#1c1c1c);
+  color: var(--xstyled-colors-background,#fff);
+}
+
+<div
+    className="emotion-33"
+    dir="col"
+  >
+    <section
+      className="emotion-26"
+      dir="col"
+    >
+      <div
+        className="emotion-4"
+      >
+        <div
+          className="emotion-2"
+          dir="col"
+        >
+          <h1
+            className="emotion-0"
+          >
+            Trip Information
+          </h1>
+          <h2
+            className="emotion-1"
+          >
+            22 / 12 / 2016, 01:36 AM
+          </h2>
+        </div>
+        <button
+          className="emotion-3"
+          color="white"
+          disabled={true}
+          height="fit-content"
+          onClick={[Function]}
+        >
+          Start trip
+        </button>
+      </div>
+      <div
+        className="emotion-25"
+      >
+        <div
+          className="emotion-9"
+        >
+          <img
+            className="emotion-5"
+            height={45}
+            src="img"
+            width={45}
+          />
+          <div
+            className="emotion-2"
+            dir="col"
+          >
+            <p
+              className="emotion-6"
+            >
+              name
+            </p>
+            <p
+              className="emotion-7"
+            >
+              Car Model
+               - 
+              Plate
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-9"
+        >
+          <div
+            className="emotion-10"
+            height="37px"
+            width={2}
+          />
+          <div
+            className="emotion-13"
+            dir="col"
+            height="98%"
+          >
+            <p
+              className="emotion-6"
+            >
+              Station 1
+            </p>
+            <p
+              className="emotion-6"
+            >
+              Station 10
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-21"
+          dir="col"
+        >
+          <div
+            className="emotion-9"
+          >
+            <div
+              className="emotion-15"
+              height={
+                Object {
+                  "md": 8,
+                  "xs": 5,
+                }
+              }
+              width={4}
+            />
+            <p
+              className="emotion-16"
+            >
+              Trip Distance: 
+              47
+               KM
+            </p>
+          </div>
+          <div
+            className="emotion-9"
+          >
+            <div
+              className="emotion-15"
+              height={
+                Object {
+                  "md": 8,
+                  "xs": 5,
+                }
+              }
+              width={4}
+            />
+            <p
+              className="emotion-16"
+            >
+              Trip Base Fare: 
+              45
+               
+              EGP
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-2"
+          dir="col"
+        >
+          <p
+            className="emotion-22"
+          >
+            Current Station: 
+          </p>
+          <p
+            className="emotion-16"
+          >
+            Station 1
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      className="emotion-32"
+      dir="col"
+    >
+      <div
+        className="emotion-4"
+      >
+        <div
+          className="emotion-9"
+        >
+          <h1
+            className="emotion-0"
+          >
+            Bookings
+          </h1>
+        </div>
+        <button
+          className="emotion-29"
+          color="inverseBackground"
+          disabled={false}
+          height="fit-content"
+          onClick={[Function]}
+        >
+          Add Booking
+        </button>
+      </div>
+      <p
+        className="emotion-16"
+      >
+        No bookings added yet. Press 
+        <b>
+          Add Booking
+        </b>
+         to get started.
+      </p>
+    </section>
+  </div>,
+]
+`;
